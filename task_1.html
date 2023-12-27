@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя кошка></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <style>  
+    [data-tooltip] {
+        position: relative; /* Относительное позиционирование */ 
+    }
+    [data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: #3989c9; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+   } 
+   [data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: 2em; /* Положение подсказки */
+   } 
+        body{
+            background-color: rgb(164, 141, 98);     
+        }
+        h1{
+            font-size: 70px;
+            color:black;
+            text-shadow: 2px 2px 1px white;
+        }
+        ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 20px; /* Отступ слева */
+   } 
+   ol {
+    padding: 0; /* Убираем поля */
+    margin-left: 25px; /* Отступ слева */
+   }
+    #navbar {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 15x;
+      }
+    #navbar li {
+        border-left: 5px solid #874308;
+        border-bottom: 1px solid #666;
+      }
+    #navbar a {
+        background-color: #edb54d;
+        color: #0c0c0c;
+        padding: 5px;
+        text-decoration: none;
+        font-weight: bold;
+      
+        display: block;
+      }
+    </style>
+
+<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <h1 style="text-align: center;">Бурманская кошка. Что за зверь?</h1> 
+    <br>
+    <p style="text-align: center;">
+        <img src="./sticker.webp" alt="Муся1">
+    <ul id="navbar">
+        <li><a href="#Главная">Главная</a></li>
+        <li><a href="#Достоинства">Достоинства породы</a></li>
+        <li><a href="#Контакты">Контакты заводчика</a></li>
+    </ul>
+    </p> 
+    <h2 id="стих" class="h2class"> Происхождение. История породы</h2>
+    <p>
+        <strong>Бурма, или бурманская кошка</strong> — порода короткошёрстных кошек. О них слогают легенды, им посвящают 
+        </div>
+        <a href="http://127.0.0.1:5500/task_2.html">стихи.</a>
+        <div>
+        Точное происхождение и возраст данной породы не известен, отсчет истории породы в Европе и США ведется с 1930 года, когда заводчик сиамских кошек Джозеф Томпсон получил в подарок кота шоколадного окраса, привезенного с западного побережья Бирмы. Кот по кличке Вонг Мау заинтересовал Томпсона и он решил использовать его в разведении, скрестив с сиамской кошкой, имеющей темно-коричневые отметины. Из первого полученного помета для дальнейшего разведения были отобраны котята, унаследовавшие окрас Вонг Мау, именно они и стали прародителями современной бурманской кошки.
+        В 1957 году порода получила свое окончательное признание фелинологами. <p data-tooltip="CATS-портал. БУРМАНСКАЯ КОРОТКОШЕРСТНАЯ КОШКА: ИСТОРИЯ ПОРОДЫ"><a href="http://cat.mau.ru/bur/?p=history2" target="_blanc">[1]</a></p>
+    </p>
+ 
+    <h2 id="Достоинства" class="h2class"> Достоинства породы:</h2>
+    
+    <div class="features-block">
+        <div class="image">
+            <span>
+             <picture>
+                <img class="imgclass" src="./IMAGE 2023-12-27 11:09:49.jpg" width="150" height="130" alt="Размер">
+            </picture>
+            <p>(1)</p>
+            </span>
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMG_0146.jpeg" width="150" height="130" alt="Интеллект">
+               </picture>
+               <p>(2)</p>
+            </span>
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMAGE 2023-12-27 11:08:53.jpg" width="120" height="150" alt="Характер">
+               </picture>
+               <p>(3)</p>
+            </span>
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMG_0136.jpeg" width="120" height="150" alt="Шерсть">
+               </picture>
+               <p>(4)</p>
+            </span>  
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMAGE 2023-12-27 11:08:34.jpg" width="150" height="130" alt="Еда">
+                </picture>
+               <p>(5)</p>
+            </span>
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMAGE 2023-12-27 11:08:41.jpg" width="150" height="130" alt="Хозяин">
+                </picture>
+               <p>(6)</p>
+            </span>
+            <span>
+                <picture>
+                    <img class="imgclass" src="./IMG_8475.JPG" width="150" height="130" alt="Животные">
+                </picture>
+               <p>(7)</p>
+            </span>
+        </div>
+    </div>
+    <ol>
+        <li>Небольшой размер;</li>
+        <li>Высокий интеллект;</li>
+        <li>Дружелюбный характер;</li>
+        <li>Гипоаллергенная шерсть;</li>
+        <li>Знает толк в еде;</li>
+        <li>Предана хозяину;</li>
+        <li>Ладит с другими животными.</li>
+    </ol>
+    <br>
+    <br>
+   <h2 id="Контакты">Контакты заводчика:</h2>
+   <br>
+   <ul>
+    <li>+7 916 920 66 62 </li>
+    <li>+7 985 632 72 99</li> 
+    <li>mail@burma-aldis.ru</li>
+    <a href="https://www.burma-aldis.ru/" target="_blanc"> Сайт питомника</a>
+   </ul>
+   <br>
+   <a href="#top">Перейти вверх страницы</a>
+   
+</html> 
